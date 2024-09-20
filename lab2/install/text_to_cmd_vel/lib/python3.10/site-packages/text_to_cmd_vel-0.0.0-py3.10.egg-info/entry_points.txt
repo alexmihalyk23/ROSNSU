@@ -1,0 +1,2 @@
+[console_scripts]
+text_to_cmd_vel = text_to_cmd_vel.text_to_cmd_vel:main

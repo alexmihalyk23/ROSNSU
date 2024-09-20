@@ -1,0 +1,38 @@
+[1.222s] Invoking command in '/home/alex/robot/ros/ROSNSU/lab2/ex10': PYTHONPATH=/home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build install --record /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
+[1.707s] running egg_info
+[1.708s] creating ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info
+[1.726s] writing ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[1.726s] writing requirements to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[1.726s] writing top-level names to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[1.727s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.779s] reading manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.779s] adding license file 'LICENSE'
+[1.780s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.780s] running build
+[1.780s] running build_py
+[1.780s] creating /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build
+[1.780s] creating /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib
+[1.781s] creating /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[1.781s] copying text_to_cmd_vel/__init__.py -> /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[1.781s] copying text_to_cmd_vel/text_to_cmd_vel.py -> /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[1.781s] running install
+[1.787s] running install_lib
+[1.807s] creating /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[1.807s] copying /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/__init__.py -> /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[1.807s] copying /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/text_to_cmd_vel.py -> /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel
+[1.808s] byte-compiling /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel/__init__.py to __init__.cpython-310.pyc
+[1.808s] byte-compiling /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel/text_to_cmd_vel.py to text_to_cmd_vel.cpython-310.pyc
+[1.809s] running install_data
+[1.809s] creating /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/share/ament_index
+[1.809s] creating /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/share/ament_index/resource_index
+[1.809s] creating /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[1.809s] copying resource/text_to_cmd_vel -> /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[1.809s] copying package.xml -> /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/share/text_to_cmd_vel
+[1.809s] running install_egg_info
+[1.829s] Copying ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages/text_to_cmd_vel-0.0.0-py3.10.egg-info
+[1.830s] running install_scripts
+[1.907s] Installing text_to_cmd_vel script to /home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[1.907s] writing list of installed files to '/home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/install.log'
+[1.960s] Invoked command in '/home/alex/robot/ros/ROSNSU/lab2/ex10' returned '0': PYTHONPATH=/home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/robot/ros/ROSNSU/lab2/install/text_to_cmd_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/build install --record /home/alex/robot/ros/ROSNSU/lab2/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
