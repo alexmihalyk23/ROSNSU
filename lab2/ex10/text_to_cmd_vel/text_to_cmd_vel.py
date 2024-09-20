@@ -32,8 +32,8 @@ class MinimalPublisher(Node):
                 self.get_logger().info('Get rotated')
 
             self.publisher_.publish(msg)
-        #else:
-            #self.get_logger().info('Wrong command!')
+        else:
+            self.get_logger().info('Wrong command!')
             
 
 
