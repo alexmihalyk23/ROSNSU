@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[0.330s] -- The C compiler identification is GNU 11.4.0
+[0.554s] -- The CXX compiler identification is GNU 11.4.0
+[0.589s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.711s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.727s] -- Detecting C compile features
+[0.729s] -- Detecting C compile features - done
+[0.759s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.909s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.781s] -- Found Python3: /usr/bin/python3 (found version "3.10.15") found components: Interpreter 
+[1.933s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.052s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.052s] -- Configured cppcheck include dirs: 
+[2.052s] -- Configured cppcheck exclude dirs and/or files: 
+[2.055s] -- Added test 'lint_cmake' to check CMake code style
+[2.061s] -- Added test 'uncrustify' to check C / C++ code style
+[2.062s] -- Configured uncrustify additional arguments: 
+[2.063s] -- Added test 'xmllint' to check XML markup files
+[2.070s] -- Configuring done
+[2.073s] -- Generating done
+[2.074s] -- Build files have been written to: /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces
+[2.079s] Invoked command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[2.081s] Invoking command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8
+[2.128s] Invoked command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces -- -j8 -l8
+[2.169s] Invoking command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces
+[2.179s] -- Install configuration: ""
+[2.179s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[2.179s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[2.179s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[2.180s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[2.181s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[2.181s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[2.181s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[2.181s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[2.181s] -- Installing: /home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[2.184s] Invoked command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces

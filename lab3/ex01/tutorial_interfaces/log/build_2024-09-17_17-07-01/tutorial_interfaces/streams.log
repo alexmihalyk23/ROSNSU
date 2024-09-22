@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.385s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.135s] -- Found Python3: /home/alex/miniconda3/bin/python3 (found version "3.10.15") found components: Interpreter 
+[1.234s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.269s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.273s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.280s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.349s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.477s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.477s]   execute_process(/home/alex/miniconda3/bin/python3 -m rosidl_adapter
+[1.477s]   --package-name tutorial_interfaces --arguments-file
+[1.477s]   /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[1.477s]   --output-dir
+[1.477s]   /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[1.477s]   --output-file
+[1.477s]   /home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[1.477s]   returned error code 1:
+[1.478s] 
+[1.478s]   Traceback (most recent call last):
+[1.478s] 
+[1.478s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.478s]       return _run_code(code, main_globals, None,
+[1.478s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.478s]       exec(code, run_globals)
+[1.478s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.478s]       sys.exit(main())
+[1.478s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.478s]       abs_idl_file = convert_to_idl(
+[1.478s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.478s]       return convert_msg_to_idl(
+[1.479s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.479s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.479s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[1.479s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.479s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[1.479s]       self.base_type = BaseType(
+[1.479s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.479s]       raise InvalidResourceName(
+[1.479s] 
+[1.479s]   rosidl_adapter.parser.InvalidResourceName: 'fullNameMessage' is an invalid
+[1.479s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.479s] 
+[1.479s] Call Stack (most recent call first):
+[1.480s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.480s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.480s] 
+[1.480s] [0m
+[1.480s] -- Configuring incomplete, errors occurred!
+[1.480s] See also "/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.486s] Invoked command in '/home/alex/ros2_ws/src/tutorial_interfaces/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/alex/ros2_ws/src/tutorial_interfaces/install/tutorial_interfaces

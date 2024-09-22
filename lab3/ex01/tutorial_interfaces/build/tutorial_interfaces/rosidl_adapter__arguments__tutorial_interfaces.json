@@ -1,0 +1,7 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/alex/ros2_ws/src/tutorial_interfaces:msg/FullNameMessage.msg",
+    "/home/alex/ros2_ws/src/tutorial_interfaces:srv/FullNameSumService.srv"
+  ]
+}

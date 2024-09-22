@@ -1,6 +1,0 @@
-source;share/text_to_cmd_vel/hook/pythonpath.ps1
-source;share/text_to_cmd_vel/hook/pythonpath.dsv
-source;share/text_to_cmd_vel/hook/pythonpath.sh
-source;share/text_to_cmd_vel/hook/ament_prefix_path.ps1
-source;share/text_to_cmd_vel/hook/ament_prefix_path.dsv
-source;share/text_to_cmd_vel/hook/ament_prefix_path.sh

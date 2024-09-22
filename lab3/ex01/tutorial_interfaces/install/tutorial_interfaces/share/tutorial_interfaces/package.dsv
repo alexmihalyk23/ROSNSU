@@ -1,0 +1,3 @@
+source;share/tutorial_interfaces/hook/cmake_prefix_path.ps1
+source;share/tutorial_interfaces/hook/cmake_prefix_path.dsv
+source;share/tutorial_interfaces/hook/cmake_prefix_path.sh
