@@ -13,8 +13,8 @@ class MovementsNode(Node):
 
     def timer_callback(self):
         twist_msg = Twist()
-        twist_msg.linear.x = 0.5  # линейная скорость вперед
-        twist_msg.angular.z = 0.5  # угловая скорость для движения по кругу
+        twist_msg.linear.x = 0.5  
+        twist_msg.angular.z = 0.5  
         self.publisher_.publish(twist_msg)
 
 def main(args=None):
