@@ -47,7 +47,7 @@ class FrameListener(Node):
         self.turtle_spawning_service_ready = False
         # if the turtle was successfully spawned
         self.turtle_spawned = False
-        self.declare_parameter('delay', 10)
+        self.declare_parameter('delay', 2)
         # Create turtle2 velocity publisher
         self.publisher = self.create_publisher(Twist, 'turtle2/cmd_vel', 1)
 
