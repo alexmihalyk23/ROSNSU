@@ -15,7 +15,7 @@
 
     <link name="depth_frame">
         <visual>
-            <origin xyz="0.00465 -0.0475 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+            <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
             <geometry>
                 <mesh filename="file://$(find robot_description)/urdf/d455.stl" scale="0.001 0.001 0.001"/>
                 <!--box size="0.026 0.124 0.029"/-->
@@ -23,7 +23,7 @@
             <material name="aluminum"/>
         </visual>
         <collision>
-            <origin xyz="0.00465 -0.0475 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+            <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
             <geometry>
                 <box size="0.026 0.124 0.029"/>
             </geometry>
@@ -37,9 +37,23 @@
         </inertial>
     </link>
 
-    <gazebo reference="depth_frame">
+
+
+    <joint name="camera_rgb_joint" type="fixed">
+        <parent link="depth_frame"/>
+        <child link="camera_rgbd_frame"/>
+        <origin xyz="0 0 0" rpy="3.14159 3.14159 3.14159"/>
+    </joint>
+
+    <link name="camera_rgbd_frame"/>
+
+
+
+    <gazebo reference="camera_rgbd_frame">
         <sensor name='depth_sensor_frame' type='depth_camera'>"
             <gz_frame_id>robot/depth_frame</gz_frame_id>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            
             <pose> 0 0 0 0 0 0 </pose>
             <always_on>true</always_on>
             <update_rate>10</update_rate>
